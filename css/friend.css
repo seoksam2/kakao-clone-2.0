@@ -1,0 +1,15 @@
+.friend {
+    background-color: tomato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend .friend__avatar {
+    width: 50px;
+}
+
+.friend__avatar.g-avatar {
+    width: 70px;
+    border-radius: 40%;
+}
