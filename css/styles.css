@@ -2,6 +2,12 @@
 @import "status-bar.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
 @import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     background-color: white;
@@ -11,4 +17,9 @@ body {
 
 a {
     color: inherit;
+}
+
+body {
+    padding-right: 20px;
+    padding-left: 20px;
 }
